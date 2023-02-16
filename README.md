@@ -8,13 +8,13 @@
 
 - **OS**: [Arch Linux](https://archlinux.org/)
 - **WM**: [BSPWM](https://github.com/baskerville/bspwm)
-- **Bar**: [Polybar](https://polybar.github.io/)
-- **Compositor**: [Picom](https://github.com/yshui/picom)
+- **Bar**: [polybar](https://polybar.github.io/)
+- **Compositor**: [picom](https://github.com/yshui/picom)
 - **Editor**: [vscode](https://code.visualstudio.com/)
 - **File Manager**: [nautilus](https://gitlab.gnome.org/GNOME/nautilus)
 - **Launcher**: [rofi](https://github.com/davatorium/rofi)
 - **Shell**: [zsh](https://www.zsh.org/)
-- **Terminal Emulator**: [Kitty](https://sw.kovidgoyal.net/kitty/)
+- **Terminal Emulator**: [kitty](https://sw.kovidgoyal.net/kitty/)
 
 ## SETUP
 
