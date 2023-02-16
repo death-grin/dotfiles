@@ -23,14 +23,14 @@
     <summary><b>Arch Linux</b></summary>
 
 - Install packages
-```bash
+```
 pacman -S acpi acpid alsa-firmware alsa-tools alsa-utils bluez bluez-tools bluez-utilsfirefox lsd \
 pavucontrol playerctl pulseaudio pulseaudio-alsa wireless_tools sof-firmware xclip xorg xorg-xinit \
 unzip zsh
 pacman -S bspwm kitty nautilus nitrogen picom rofi sxhkd
 ```
 
-```bash
+```
 yay -S betterlockscreen lightdm-gtk-greeter
 ```
 - Enable services
@@ -44,7 +44,7 @@ yay -S betterlockscreen lightdm-gtk-greeter
     <summary><b>Debian</b></summary>
 
 - Install packages
-```bash
+```
 apt install acpi bspwm sxhkd picom nautilus nitrogen rofi
 ```
 - Enable services
@@ -56,11 +56,11 @@ apt install acpi bspwm sxhkd picom nautilus nitrogen rofi
 ### Configuration
 
 - Clone repository
-```bash
+```
 git clone https://github.com/death-grin/dotfiles
 ```
 - Apply configuration
-```bash
+```
 cd dotfiles/
 chmod +x install.sh
 ./install.sh
