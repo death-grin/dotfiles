@@ -11,10 +11,10 @@
 - **Bar**: [Polybar](https://polybar.github.io/)
 - **Compositor**: [Picom](https://github.com/yshui/picom)
 - **Editor**: [vscode](https://code.visualstudio.com/)
+- **File Manager**: [nautilus](https://gitlab.gnome.org/GNOME/nautilus)
+- **Launcher**: [rofi](https://github.com/davatorium/rofi)
 - **Shell**: [zsh](https://www.zsh.org/)
 - **Terminal Emulator**: [Kitty](https://sw.kovidgoyal.net/kitty/)
-- **Launcher**: [rofi](https://github.com/davatorium/rofi)
-- ****:
 
 ## SETUP
 
@@ -40,6 +40,17 @@ apt install bspwm sxhkd picom nautilus nitrogen rofi
 </details>
 
 ### Configuration
+
+- Clone repository
+```bash
+git clone https://github.com/death-grin/dotfiles
+```
+- Apply configuration
+```bash
+cd dotfiles/
+chmod +x install.sh
+./install.sh
+```
 
 ### Fonts
 
