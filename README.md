@@ -1,8 +1,8 @@
 # Welcome to my DOTFILES
 
-<a>
-    <imd src="assets/desktop-002.png" alt="Desktop">
-</a>
+<div>
+    <img src="assets/desktop-002.png" alt="Desktop">
+</div>
 
 ## INFO
 
