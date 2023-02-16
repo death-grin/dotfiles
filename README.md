@@ -1,7 +1,7 @@
 # Welcome to my DOTFILES
 
 <a>
-    <img src="https://raw.githubusercontent.com/death-grin/dotfiles/main/assets/desktop-002.png?token=GHSAT0AAAAAAB63G2CTXZXZ2B3YUTGYU33IY7OQAPA" alt="Desktop" />
+    <imd src="assets/desktop-002.png" alt="Desktop">
 </a>
 
 ## INFO
