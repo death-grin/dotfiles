@@ -23,11 +23,17 @@
     <summary><b>Arch Linux</b></summary>
 
 ```bash
-pacman -S bspwm sxhkd picom nautilus nitrogen rofi 
+pacman -S acpi acpid alsa-firmware alsa-tools alsa-utils bluez bluez-tools bluez-utilsfirefox lsd pavucontrol playerctl pulseaudio pulseaudio-alsa wireless_tools sof-firmware xclip xorg xorg-xinit unzip zsh
+pacman -S bspwm kitty nautilus nitrogen picom rofi sxhkd
 ```
 
 ```bash
-yay -S betterlockscreen
+yay -S betterlockscreen lightdm-gtk-greeter
+```
+- Enable services
+```
+# systemctl enable acpid.service
+# systemctl enable lightdm.service
 ```
 </details>
 
