@@ -65,6 +65,20 @@ cd dotfiles/
 chmod +x install.sh
 ./install.sh
 ```
+- Add `target` function to `~/.zshrc` file
+```sh
+function target
+{
+   target_ip=$1
+  if [[ "$target_ip" == "remove" ]]; then
+    /usr/bin/sed -i 's/^target=".*"/target=""/' ~/.config/polybar/scripts/target.sh
+    echo -e "TARGET HAS BEEN REMOVED"
+  else
+    /usr/bin/sed -i "s/^target=\"\"$/target=\"$target_ip\"/" ~/.config/polybar/scripts/target.sh
+    echo -e "TARGET HAS BEEN SET!"
+  fi 
+}
+```
 
 ### Fonts
 
