@@ -22,8 +22,10 @@
 <details>
     <summary><b>Arch Linux</b></summary>
 
+- Install packages
 ```bash
-pacman -S acpi acpid alsa-firmware alsa-tools alsa-utils bluez bluez-tools bluez-utilsfirefox lsd pavucontrol playerctl pulseaudio pulseaudio-alsa wireless_tools sof-firmware xclip xorg xorg-xinit unzip zsh
+pacman -S acpi acpid alsa-firmware alsa-tools alsa-utils bluez bluez-tools bluez-utilsfirefox lsd \
+pavucontrol playerctl pulseaudio pulseaudio-alsa wireless_tools sof-firmware xclip xorg xorg-xinit unzip zsh
 pacman -S bspwm kitty nautilus nitrogen picom rofi sxhkd
 ```
 
@@ -40,8 +42,13 @@ yay -S betterlockscreen lightdm-gtk-greeter
 <details>
     <summary><b>Debian</b></summary>
 
+- Install packages
 ```bash
-apt install bspwm sxhkd picom nautilus nitrogen rofi
+apt install acpi bspwm sxhkd picom nautilus nitrogen rofi
+```
+- Enable services
+```
+# systemctl enable acpid.service
 ```
 </details>
 
