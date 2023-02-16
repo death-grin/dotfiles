@@ -1,11 +1,5 @@
 # Welcome to my DOTFILES
 
-<style>
-    img {
-        max-width: 100%;
-    }
-</style>
-
 <img src="https://raw.githubusercontent.com/death-grin/dotfiles/main/assets/desktop-002.png?token=GHSAT0AAAAAAB63G2CTXZXZ2B3YUTGYU33IY7OQAPA" alt="Desktop">
 
 ## INFO
