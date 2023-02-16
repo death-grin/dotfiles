@@ -25,7 +25,8 @@
 - Install packages
 ```bash
 pacman -S acpi acpid alsa-firmware alsa-tools alsa-utils bluez bluez-tools bluez-utilsfirefox lsd \
-pavucontrol playerctl pulseaudio pulseaudio-alsa wireless_tools sof-firmware xclip xorg xorg-xinit unzip zsh
+pavucontrol playerctl pulseaudio pulseaudio-alsa wireless_tools sof-firmware xclip xorg xorg-xinit \
+unzip zsh
 pacman -S bspwm kitty nautilus nitrogen picom rofi sxhkd
 ```
 
