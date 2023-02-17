@@ -9,7 +9,7 @@ directories=(bspwm kitty picom polybar sxhkd)
 
 function enable_touchpad
 {
-    echo -e "$blueROOT$reset is required to enable the $purpletouchpad$reset"
+    echo -e "${blue}ROOT${reset} is required to enable the ${purple}touchpad${reset}"
     sudo ln -s /usr/share/X11/xorg.conf.d/40-libinput.conf /etc/X11/xorg.conf.d/40-libinput.conf
     sudo cp config/30-touchpad.conf /etc/X11/xorg.conf.d/.
 }
@@ -18,7 +18,7 @@ function copy_config
 {
     for directory in ${directories[@]}; do
         cp -r config/$directory ~/.config/.
-        echo -e "[*] $blue$directory$reset has been copied to $purple~/.config/$directory$reset"
+        echo -e "[*] ${blue}$directory${reset} has been copied to ${purple}~/.config/$directory${reset}"
     done
 }
 
@@ -27,7 +27,7 @@ function rename_old_config
     for directory in ${directories[@]}; do
         mv ~/.config/$directory ~/.config/$directory-old 2>/dev/null
         if [[ $(echo $?) -eq 0 ]]; then
-            echo -e "[*] $blue$directory$reset has been renamed to $purple$directory-old$reset"
+            echo -e "[*] ${blue}$directory${reset} has been renamed to ${purple}$directory-old${reset}"
         fi
     done
 }
@@ -43,4 +43,4 @@ copy_config
 echo "---"
 enable_touchpad
 echo ""
-echo "Now $bluerestart$reset the session and log in with $purpleBSPWM$reset"
+echo "Now ${blue}restart${reset} the session and log in with ${purple}BSPWM${reset}"
