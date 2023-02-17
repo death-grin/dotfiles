@@ -101,23 +101,23 @@ target remove
             <th>Action</th>
         </thead>
         <tr>
-            <td align="center"><keyboard>Mod4 + Return</keyboard></td>
+            <td align="center"><kbd>Mod4 + Return</kbd></td>
             <td align="center">Launch kitty</td>
         </tr>
         <tr>
-            <td align="center"><keyboard>Mod4 + e</key>board</td>
+            <td align="center"><kbd>Mod4 + e</kbd>board</td>
             <td align="center">Launch nautilus</td>
         </tr>
         <tr>
-            <td align="center"><keyboard>Mod4 + r</keyboard></td>
+            <td align="center"><kbd>Mod4 + r</kbd></td>
             <td align="center">Launch rofi</td>
         </tr>
         <tr>
-            <td align="center"><keyboard>Alt + l</keyboard></td>
+            <td align="center"><kbd>Alt + l</kbd></td>
             <td align="center">Lock screen</td>
         </tr>
         <tr>
-            <td align="center"><keyboard>Alt + o</keyboard></td>
+            <td align="center"><kbd>Alt + o</kbd></td>
             <td align="center">Launch obsidian</td>
         </tr>
     </table>
