@@ -91,18 +91,3 @@ target remove
 
 - [Caskaydia Cove Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/CascadiaCode.zip)
 - [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/Hack.zip)
-
-## KEYBINDINGS
-
-<details>
-    <table>
-        <thead>
-            <th>Key</th>
-            <th>Action</th>
-        </thead>
-        <tr>
-            <td><key>Mod4 + w</key></td>
-            <td>Close window</td>
-        </tr>
-    </table>
-</details>
