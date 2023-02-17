@@ -29,11 +29,11 @@ alt + l
 # music player
 super + alt + s
 	#spotify
-	LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
+	#LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
 
 # obsidian
 alt + o
-	~/.bin/./Obsidian-0.15.8.AppImage
+	obsidian
 
 # ------------------------------------------------------------------
 # Volume
