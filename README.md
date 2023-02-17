@@ -105,7 +105,7 @@ target remove
             <td align="center">Launch kitty</td>
         </tr>
         <tr>
-            <td align="center"><kbd>Mod4 + e</kbd>board</td>
+            <td align="center"><kbd>Mod4 + e</kbd></td>
             <td align="center">Launch nautilus</td>
         </tr>
         <tr>
