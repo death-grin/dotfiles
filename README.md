@@ -27,7 +27,7 @@
 pacman -S acpi acpid alsa-firmware alsa-tools alsa-utils bluez bluez-tools bluez-utilsfirefox lsd \
 pavucontrol playerctl pulseaudio pulseaudio-alsa wireless_tools sof-firmware xclip xorg xorg-xinit \
 unzip zsh
-pacman -S bspwm kitty nautilus nitrogen picom rofi sxhkd
+pacman -S bspwm kitty nautilus nitrogen obsidan picom rofi sxhkd
 ```
 
 ```
@@ -91,3 +91,34 @@ target remove
 
 - [Caskaydia Cove Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/CascadiaCode.zip)
 - [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/Hack.zip)
+
+## KEYBINDINGS
+
+<details>
+    <table>
+        <thead>
+            <th>Keys</th>
+            <th>Action</th>
+        </thead>
+        <tr>
+            <td><key>Mod4 + Return</key></td>
+            <td>Launch kitty</td>
+        </tr>
+        <tr>
+            <td><key>Mod4 + e</key></td>
+            <td>Launch nautilus</td>
+        </tr>
+        <tr>
+            <td><key>Mod4 + r</key></td>
+            <td>Launch rofi</td>
+        </tr>
+        <tr>
+            <td><key>Alt + l</key></td>
+            <td>Lock screen</td>
+        </tr>
+        <tr>
+            <td><key>Alt + o</key></td>
+            <td>Launch obsidian</td>
+        </tr>
+    </table>
+</details>
