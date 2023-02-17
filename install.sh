@@ -25,8 +25,10 @@ function copy_config
 function rename_old_config
 {
     for directory in ${directories[@]}; do
-        mv ~/.config/$directory ~/.config/$directory-old
-        echo -e "[*] $blue$directory$reset has been renamed to $purple$directory-old$reset"
+        mv ~/.config/$directory ~/.config/$directory-old 2>/dev/null
+        if [[ $(echo $?) -eq 0 ]]; then
+            echo -e "[*] $blue$directory$reset has been renamed to $purple$directory-old$reset"
+        fi
     done
 }
 
