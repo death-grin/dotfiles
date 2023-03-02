@@ -13,6 +13,8 @@ PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/ve
 
 # Aliases
 alias ls='lsd --group-dirs=first'
+alias icat='kitty +kitten icat'
+alias spotify='LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify &disown'
 
 # Configure key keybindings
 bindkey -e                                        # emacs key bindings
@@ -42,6 +44,11 @@ function getPorts()
 	echo $open_ports | tr -d '\n' | xclip -sel clip
 	echo -e "${white}[!] ${blue}PORTS HAVE BEEN COPIED TO CLIPBOARD!${reset}"
 	
+}
+
+function make_dirs()
+{
+	mkdir -p {contents,scans,exploits}
 }
 
 function target()
